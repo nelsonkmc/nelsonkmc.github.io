@@ -1,0 +1,119 @@
+<html>
+<head>
+  <title>Nelson Chen</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../../css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  </script>
+</head>
+
+<body>
+	<header class="container">
+    <div class="row">
+      <h1 class="col-sm-4">NELSON KMC</h1>
+      <nav class="col-sm-8 text-right">
+        <ul>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li><a class="active" href="home.html">HOME</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id='contact' class="jumbotron">
+    <div class="container">
+      <div class="row text-center">
+        <h2>LET'S HAVE CHAT!</h2>
+        <h3>Send a friendly hello</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class='container'>
+    <div class='contact'>
+      <div class='col-sm-5'>
+        <h3>Contact Me Today!</h3>
+        <p>While I'm finishing up my final year in Computer Science Degree, I'm looking to put my skills to play as a part time developer. Also, a friendly hello is always welcomed.</p>
+        <br/>
+        <h3>Contact Information</h3>
+        <p>
+        Attn: Nelson Kai Miin Chen<br/>
+        +61451589546<br/>
+        nelsonchen96@gmail.com
+        </p>
+      </div>
+      
+      <div class='col-sm-7'>
+        <br/>
+        <form name='contact' method='POST' action='send_form_email.php'>
+          <table height='500px' width='600px'>
+            <tr>
+              <td valign='top'>
+                <label for='first_name'>First Name</label>
+              </td>
+              <td valign='top'>
+                <input type='text' name='first_name' maxlength="50" size='30'>
+              </td>
+            </tr>
+            <tr>
+              <td valign='top'>
+                <label for='last_name'>Last Name *</label>
+              </td>
+              <td valign='top'>
+                <input type='text' name='last_name' maxlength="50" size='30'/>
+              </td>
+            </tr>
+            <tr>
+              <td valign='top'>
+                <label for='email'>Email Address *</label>
+              </td>
+              <td valign='top'>
+                <input type='text' name='email' maxlength='80'size='30'/>
+              </td>
+            </tr>
+            <tr>
+              <td valign='top'>
+                <label for='contact'>Contact Number</label>
+              </td>
+              <td valign='top'>
+                <input type='text' name='contact' maxlength='30' size='30'/>
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="comments">Comments *</label>
+              </td>
+              <td valign="top">
+                <textarea  name="comments" maxlength="2000" cols="34" rows="6"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <input id='submit' name='submit' type="submit" value="SEND MESSAGE"/>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2017 Nelson Chen</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1"><a href="https://twitter.com/nelson_kmc"><img src="../../img/icon/twitter-colour.png"></a></li>
+        <li class="col-sm-1"><a href="https://www.facebook.com/nelson.kmc"><img src="../../img/icon/facebook-colour.png"></a></li>
+        <li class="col-sm-1"><a href="https://www.instagram.com/nelson.kmc"><img src="../../img/icon/instagram-colour.png"></a></li>
+        <li class="col-sm-1"><a href="https://au.linkedin.com/in/nelson-chen-715581a7"><img src="../../img/icon/linkedin-colour.png"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
